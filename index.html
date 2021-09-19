@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,10 +8,74 @@
     <link rel="stylesheet" href="https://unpkg.com/xp.css">
     <link rel="stylesheet" href="./assets/css/styles.css">
     <link rel="shortcut icon" href="./assets/images/favicon-32x32.png" type="image/png">
-    <title>Calculadora - Javascript</title>
+    <title>Calculadora Windows XP</title>
 </head>
-<body>
-    <h1>🚀</h1>
+
+<body class="centralizar">
+    <main class="centralizar">
+        <div class="window calculadora">
+            <div class="title-bar">
+                <div class="title-bar-text row">
+                    <img src="./assets/images/icone-calculadora.png" width="16" height="16" alt="Icone da calculadora do Windows XP">
+                    Calculadora
+                </div>
+                <div class="title-bar-controls">
+                    <button aria-label="Minimize"></button>
+                    <button aria-label="Maximize"></button>
+                    <button aria-label="Close"></button>
+                </div>
+            </div>
+            <div class="status-bar">
+                <p class="status-bar-field">Editar</p>
+                <p class="status-bar-field">Exibir</p>
+                <p class="status-bar-field">Ajuda</p>
+            </div>
+            <div class="window-body">
+                <div class="field-row-stacked">
+                    <input type="number" placeholder="0" />
+                </div>
+                <div class="row">
+                    <button class="space" disabled></button>
+                    <button class="texto-vermelho">Backspace</button>
+                    <button class="texto-vermelho">CE</button>
+                    <button class="texto-vermelho">C</button>
+                </div>
+                <div class="row">
+                    <button class="texto-vermelho" disabled>MC</button>
+                    <button class="texto-azul">7</button>
+                    <button class="texto-azul">8</button>
+                    <button class="texto-azul">9</button>
+                    <button class="texto-vermelho">/</button>
+                    <button class="texto-azul" disabled>sqrt</button>
+                </div>
+                <div class="row">
+                    <button class="texto-vermelho" disabled>MR</button>
+                    <button class="texto-azul">4</button>
+                    <button class="texto-azul">5</button>
+                    <button class="texto-azul">6</button>
+                    <button class="texto-vermelho">*</button>
+                    <button class="texto-azul">%</button>
+                </div>
+                <div class="row">
+                    <button class="texto-vermelho" disabled>MS</button>
+                    <button class="texto-azul">1</button>
+                    <button class="texto-azul">2</button>
+                    <button class="texto-azul">3</button>
+                    <button class="texto-vermelho">-</button>
+                    <button class="texto-azul" disabled>1/x</button>
+                </div>
+                <div class="row">
+                    <button class="texto-vermelho" disabled>M+</button>
+                    <button class="texto-azul">0</button>
+                    <button class="texto-azul" disabled>+/-</button>
+                    <button class="texto-azul">,</button>
+                    <button class="texto-vermelho">+</button>
+                    <button class="texto-azul">=</button>
+                </div>
+            </div>
+        </div>
+    </main>
     <script src="./assets/js/main.js"></script>
 </body>
+
 </html>
