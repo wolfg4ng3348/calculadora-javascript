@@ -52,14 +52,6 @@ main {
     margin-bottom: 5px;
 }
 
-input::-webkit-outer-spin-button,
-input::-webkit-inner-spin-button {
-  -webkit-appearance: none;
-  margin: 0;
-}
-input[type=number] {
-    -moz-appearance: textfield;
-  }
 .calculadora input {
     padding: 5px;
     font-size: 16px;
