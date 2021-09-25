@@ -23,7 +23,7 @@ Desenvolver uma calculadora básica utilizando **javascript**.
 ***Projeto online GitHub Pages:***<br>
 [<ins>Link do projeto</ins>](https://caioliveira277.github.io/calculadora-javascript/)
 
-***Lib de estilos usada:***<br>
+***Lib de estilos utilizada:***<br>
 [<ins>Windows XP CSS</ins>](https://botoxparty.github.io/XP.css/)
 
 ---
