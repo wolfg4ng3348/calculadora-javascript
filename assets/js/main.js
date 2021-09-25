@@ -1,4 +1,5 @@
 const botoes = document.querySelectorAll('.window-body button');
+const erro = document.querySelector('.erro');
 const campo = document.querySelector('.window-body input');
 
 function backspace(valor) {
@@ -9,7 +10,7 @@ function calcular(valor) {
 }
 
 /* adicionando eventos aos botões */
-botoes.forEach((botao) => {
+botoes.forEach(function (botao) {
     botao.addEventListener('click', function(event) {
         let botao_valor = event.target.textContent;
 
@@ -49,3 +50,8 @@ document.addEventListener('keypress', function(event) {
         campo.value = calcular(campo.value);
     }
 });
+
+/* adicionando evento de exibição do erro */
+erro.addEventListener('click', function () {
+    document.body.classList.add('erro');
+})

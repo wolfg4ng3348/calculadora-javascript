@@ -18,6 +18,16 @@ body {
     background: #2e2e2e;
     overflow: hidden;
 }
+body.erro main {
+    display: none;
+}
+body .tela-azul {
+    display: none;
+}
+body.erro .tela-azul {
+    display: block;
+}
+
 main {
     background-image: url('../images/background.png');
     max-width: 1200px;
