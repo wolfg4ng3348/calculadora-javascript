@@ -18,6 +18,16 @@ body {
     background: #2e2e2e;
     overflow: hidden;
 }
+body.erro main {
+    display: none;
+}
+body .tela-azul {
+    display: none;
+}
+body.erro .tela-azul {
+    display: block;
+}
+
 main {
     background-image: url('../images/background.png');
     max-width: 1200px;
@@ -52,14 +62,6 @@ main {
     margin-bottom: 5px;
 }
 
-input::-webkit-outer-spin-button,
-input::-webkit-inner-spin-button {
-  -webkit-appearance: none;
-  margin: 0;
-}
-input[type=number] {
-    -moz-appearance: textfield;
-  }
 .calculadora input {
     padding: 5px;
     font-size: 16px;
